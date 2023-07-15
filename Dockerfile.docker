@@ -1,5 +1,4 @@
 # web application 
-
 FROM httpd
 COPY ./FirstRepros-html/ /usr/local/apache2/htdocs/
 RUN apt-get update 
